@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container position">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a class="link-text" onclick="window.location.href='index.html'">Головна</a></li>
+                    <li class="menu-item"><a class="link-text" href="#">Колекції</a></li>
+                    <li class="menu-item"><a class="link-text" href="#">Профіль</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <p class="welcome">Привіт, любий читачу!</p>
+        <p class="recomendation">Персональні рекомендації!</p>
+    </div>
+
+    <div class="container booklist" id="container">
+
+        <button id="previous"><img src="css/img/button.png"></button>
+        <div class="container booklist">
+            <div id="book1" class="book">
+                <img id="cover" src="css/img/book1.png">
+                <p class="name-book">Норвезький ліс</p>
+                <p class="author">Муракамі</p>
+            </div>
+            <div id="book2" class="book">
+                <img id="cover" src="css/img/book2.png">
+                <p class="name-book">Бійцівський клуб</p>
+                <p class="author">Чак Паланік</p>
+            </div>
+            <div id="book3" class="book">
+                <img id="cover" src="css/img/book3.png">
+                <p class="name-book">1984</p>
+                <p class="author">Джордж Орвел</p>
+            </div>
+            <div id="book4" class="book">
+                <img id="cover" src="css/img/book4.png">
+                <p class="name-book">Сповідь неповноцінної людини</p>
+                <p class="author">Дазай Осаму</p>
+            </div>
+            <div id="book5" class="book">
+                <img id="cover" src="css/img/book5.png">
+                <p class="name-book">Отрута вбивці</p>
+                <p class="author">Джулі Мартінез</p>
+            </div>
+            <div id="book6" class="book">
+                <img id="cover" src="css/img/book6.png">
+                <p class="name-book">Не дивись назад</p>
+                <p class="author">Ісаак Нельсон</p>
+            </div>
+            <div id="book7" class="book">
+                <img id="cover" src="css/img/book7.png">
+                <p class="name-book">Стертий хлопчик</p>
+                <p class="author">Джарард Кронлі</p>
+            </div>
+            <div id="book8" class="book">
+                <img id="cover" src="css/img/book8.png">
+                <p class="name-book">Душа</p>
+                <p class="author">Олівія Вільсон</p>
+            </div>
+        </div>
+        <button id="next"><img src="css/img/button.png"></button>
+    </div>
+    <div class="container">
+        <p class="welcome">Обери свій улюблений жанр</p>
+    </div>
+    <div class="container category">
+        <button class="genre1" onclick="window.location.href='index2.html'">Романтика</button>
+        <button class="genre2" onclick="window.location.href='index3.html'">Пригоди</button>
+        <button class="genre3" onclick="window.location.href='index4.html'">Детективи</button>
+        <button class="genre4" onclick="window.location.href='index5.html'">Жахи</button>
+        <button class="genre5" onclick="window.location.href='index6.html'">Комікси</button>
+
+    </div>
+    <div class="container test">
+        <p class="welcome">Пройдіть тест та перевірте свої знання про книги</p>
+        <a class="test-link" href="https://innovations.kh.ua/quiz/advanced/sophi/">Тест</a>
+    </div>
+
+
+    <div class="container">
+        <p class="welcome">Відгуки</p>
+    </div>
+    
+    <div class="container viewlist">
+        <button id="previous1"><img src="css/img/button.png"></button>
+        <div id="box" class="view">
+            <div class="profile-information"> 
+                <img src="css/img/profile.png" class="profile">
+                <div>
+                <p class="name">Емма</p>
+                <p class="text">@emmalee23</p>
+                <p>Life is good, but i’m better 😇</p>
+            </div>
+        </div>
+            
+            <p class="text-view">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus a neque ut bibendum.
+                Praesent ultricies, massa quis hendrerit ornare, odio velit varius dolor, id aliquet justo odio vel
+                ante.
+                Sed rhoncus tincidunt nibh, sed tincidunt erat rhoncus et. Fusce non purus ac lacus semper sagittis.
+                Orci
+                varius natoque penatibus et magnis</p>
+            <button class="btn">Add Comment</button>
+        </div>
+
+        <div id="box1" class="view">
+            <div class="profile-information">
+            <img src="css/img/profile2.png" class="profile">
+            <div>
+            <p class="name">Анна</p>
+            <p class="text">@anna467</p>
+            <p>Life is good, but i’m better 😇</p>
+        </div>
+        </div>
+            <p class="text-view">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus a neque ut bibendum.
+                Praesent ultricies, massa quis hendrerit ornare, odio velit varius dolor, id aliquet justo odio vel
+                ante.</p>
+            <button class="btn">Add Comment</button>
+        </div>
+        <div id="box2" class="view">
+            <div class="profile-information">
+            <img src="css/img/profile3.png" class="profile">
+            <div>
+            <p class="name">Настя</p>
+            <p class="text">@lolkek0</p>
+            <p>Life is good, but i’m better 😇</p>
+        </div>
+        </div>
+            <p class="text-view">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus a neque ut bibendum.
+                Praesent ultricies, massa quis hendrerit ornare, odio velit varius dolor, id aliquet justo odio vel
+                ante.
+                Sed rhoncus tincidunt nibh, sed tincidunt erat rhoncus et. Fusce non purus ac lacus semper sagittis.
+                Orci
+                varius natoque penatibus et magnis</p>
+            <button class="btn">Add Comment</button>
+        </div>
+        <button id="next1"><img src="css/img/button.png"></button>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
